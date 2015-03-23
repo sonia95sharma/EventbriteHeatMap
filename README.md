@@ -11,8 +11,8 @@ B. Running the app
 	2. cd into the build folder and run http-server via the command line.
 	3. Point your web browser (Chrome or Firefox is recommended) to localhost:8080
 
-C. Important Code
-  1.The key files to look at are build/src/app/home/home.js and home.tpl.html.
+C. Important Code:
+  The key files to look at are build/src/app/home/home.js and home.tpl.html.
 	
 D. Using the app
   1. Type in a city name into the search bar (I recommend San Francisco)
