@@ -6,6 +6,7 @@ This app was written in Angular.js. Extensive use was made of the leaflet.js lib
 A. Installation
   1. ngBoilerplate uses Grunt as its build system, so Node.js is required. In order for the built system to find Grunt, we require Karma and Bower. Once you have Node.js installed, you can run this command to install Grunt, Karma, and Bower: $ npm -g install grunt-cli karma bower
 	2. To run to the app, you have to serve the build folder via an http server. I recommend the npm package http-server. Install http-server by running npm install -g http-server. (Assuming you have npm installed). If this doesn't work, try sudo install -g http-server.
+
 B. Running the app
   1. cd into to the repository "EventbriteHeatMap" and run the commmand: grunt
 	2. cd into the build folder and run http-server via the command line.
