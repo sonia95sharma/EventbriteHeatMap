@@ -24,7 +24,7 @@ angular.module( 'ngBoilerplate.home', [
  * will handle ensuring they are all available at run-time, but splitting it
  * this way makes each module more "self-contained".
  */
-.config(function config( $stateProvider ) {
+.config(["$stateProvider", function config( $stateProvider ) {
   $stateProvider.state( 'home', {
     url: '/home',
     views: {
@@ -35,12 +35,12 @@ angular.module( 'ngBoilerplate.home', [
     },
     data:{ pageTitle: 'EventHeat' }
   });
-})
+}])
 
 /**
  * And of course we define a controller for our route.
  */
-.controller( 'HomeCtrl', function HomeController($scope, $http) {
+.controller( 'HomeCtrl', ["$scope", "$http", function HomeController($scope, $http) {
 
   $scope.dataReady = false;
   $scope.loading = false;
@@ -96,7 +96,7 @@ angular.module( 'ngBoilerplate.home', [
     $scope.loading = true;
   });
 
-})
+}])
 
 .controller( 'MapCtrl', ['$scope', 'leafletData',
     
