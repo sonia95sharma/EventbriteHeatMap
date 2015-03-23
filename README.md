@@ -12,11 +12,8 @@ B. Running the app
 	3. Point your web browser (Chrome or Firefox is recommended) to localhost:8080
 
 C. Important Code:
-  The key files to look at are build/src/app/home/home.js and home.tpl.html.
+  The key files to look at are src/app/home/home.js and src/app/home/home.tpl.html.
 	
 D. Using the app
   1. Type in a city name into the search bar (I recommend San Francisco)
   2. After the heat map appears, you can click on "Show Pins" in order to see all the events individually. To learn the name of an event, hover over it's pin.
-D. Using the app
-1. Type in a city name into the search bar (I recommend San Francisco)
-2. After the heat map appears, you can click on "Show Pins" in order to see all the events individually. To learn the name of an event, hover over it's pin. 
