@@ -15,5 +15,5 @@ C. Important Code
 	The key files to look at are build/src/app/home/home.js and home.tpl.html.
 	
 D. Using the app
-  !. Type in a city name into the search bar (I recommend San Francisco)
+  1. Type in a city name into the search bar (I recommend San Francisco)
   2. After the heat map appears, you can click on "Show Pins" in order to see all the events individually. To learn the name of an event, hover over it's pin. 
